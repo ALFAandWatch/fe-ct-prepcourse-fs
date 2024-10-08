@@ -7,6 +7,15 @@ function redondearNumero(num) {
    // 1.5 ---> 2
    // 0.1 ---> 0
    // Tu código:
+   let aproximacion = Math.round(num);
+
+   return aproximacion;
 }
+
+redondearNumero(2); //2
+redondearNumero(5); //5
+redondearNumero(2.5); //3
+redondearNumero(3.7); //4
+redondearNumero(12.43); //12
 
 module.exports = redondearNumero;

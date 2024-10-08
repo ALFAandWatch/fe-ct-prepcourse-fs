@@ -4,6 +4,12 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  let saludo = "Hola " + nombre + "!";
+  return saludo;
 }
+
+obtenerSaludo('Alfonso'); //Hola Alfonso!
+
+obtenerSaludo('Susana'); //Hola Susana!
 
 module.exports = obtenerSaludo;

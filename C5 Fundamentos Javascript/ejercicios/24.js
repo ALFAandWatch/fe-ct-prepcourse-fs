@@ -4,6 +4,14 @@ function agregarSimboloExclamacion(str) {
   // Por ejemplo: 
   // "hello world" ---> "hello world!"
   // Tu código:
+  let simboloAgregado = str + '!';
+  return simboloAgregado;
 }
+
+agregarSimboloExclamacion('Hola Mundo'); //Hola Mundo!
+
+agregarSimboloExclamacion('Campeones del Mundo'); //Campeones del Mundo!
+
+agregarSimboloExclamacion('!'); //!!
 
 module.exports = agregarSimboloExclamacion;
